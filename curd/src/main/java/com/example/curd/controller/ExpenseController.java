@@ -38,4 +38,10 @@ public class ExpenseController {
         return new ResponseEntity<String>("Delete successfully", HttpStatus.OK);
 
     }
+
+    @GetMapping("/test")
+    public String test(){
+        return "Api get successfully";
+
+    }
 }
